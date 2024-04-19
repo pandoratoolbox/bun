@@ -13,6 +13,7 @@ import (
 	"github.com/pandoratoolbox/bun/dialect/feature"
 	"github.com/pandoratoolbox/bun/internal"
 	"github.com/pandoratoolbox/bun/schema"
+	"github.com/pandoratoolbox/json"
 )
 
 const (
@@ -47,6 +48,7 @@ type DB struct {
 }
 
 func NewDB(sqldb *sql.DB, dialect schema.Dialect, opts ...DBOption) *DB {
+	json.ZeroIsNull = false
 	dialect.Init(sqldb)
 
 	db := &DB{
