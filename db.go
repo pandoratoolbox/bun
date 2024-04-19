@@ -13,7 +13,6 @@ import (
 	"github.com/pandoratoolbox/bun/dialect/feature"
 	"github.com/pandoratoolbox/bun/internal"
 	"github.com/pandoratoolbox/bun/schema"
-	"github.com/pandoratoolbox/json"
 )
 
 const (
