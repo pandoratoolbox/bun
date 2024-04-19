@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/example/fixture
+module github.com/pandoratoolbox/bun/example/fixture
 
 go 1.21
 
@@ -6,20 +6,20 @@ toolchain go1.22.1
 
 replace github.com/uptrace/bun => ../..
 
-replace github.com/uptrace/bun/extra/bundebug => ../../extra/bundebug
+replace github.com/pandoratoolbox/bun/extra/bundebug => ../../extra/bundebug
 
-replace github.com/uptrace/bun/dialect/sqlitedialect => ../../dialect/sqlitedialect
+replace github.com/pandoratoolbox/bun/dialect/sqlitedialect => ../../dialect/sqlitedialect
 
-replace github.com/uptrace/bun/driver/sqliteshim => ../../driver/sqliteshim
+replace github.com/pandoratoolbox/bun/driver/sqliteshim => ../../driver/sqliteshim
 
-replace github.com/uptrace/bun/dbfixture => ../../dbfixture
+replace github.com/pandoratoolbox/bun/dbfixture => ../../dbfixture
 
 require (
 	github.com/uptrace/bun v1.2.1
-	github.com/uptrace/bun/dbfixture v1.2.1
-	github.com/uptrace/bun/dialect/sqlitedialect v1.2.1
-	github.com/uptrace/bun/driver/sqliteshim v1.2.1
-	github.com/uptrace/bun/extra/bundebug v1.2.1
+	github.com/pandoratoolbox/bun/dbfixture v1.2.1
+	github.com/pandoratoolbox/bun/dialect/sqlitedialect v1.2.1
+	github.com/pandoratoolbox/bun/driver/sqliteshim v1.2.1
+	github.com/pandoratoolbox/bun/extra/bundebug v1.2.1
 )
 
 require (

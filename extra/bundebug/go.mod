@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/extra/bundebug
+module github.com/pandoratoolbox/bun/extra/bundebug
 
 go 1.21
 

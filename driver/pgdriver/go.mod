@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/driver/pgdriver
+module github.com/pandoratoolbox/bun/driver/pgdriver
 
 go 1.21
 

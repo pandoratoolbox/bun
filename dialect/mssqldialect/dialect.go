@@ -11,11 +11,11 @@ import (
 
 	"golang.org/x/mod/semver"
 
+	"github.com/pandoratoolbox/bun/dialect"
+	"github.com/pandoratoolbox/bun/dialect/feature"
+	"github.com/pandoratoolbox/bun/dialect/sqltype"
+	"github.com/pandoratoolbox/bun/schema"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect"
-	"github.com/uptrace/bun/dialect/feature"
-	"github.com/uptrace/bun/dialect/sqltype"
-	"github.com/uptrace/bun/schema"
 )
 
 const (

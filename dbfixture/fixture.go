@@ -16,8 +16,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
+	"github.com/pandoratoolbox/bun/schema"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/schema"
 )
 
 var (

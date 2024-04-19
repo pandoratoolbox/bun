@@ -14,9 +14,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.20.0"
 	"go.opentelemetry.io/otel/trace"
 
+	"github.com/pandoratoolbox/bun/dialect"
+	"github.com/pandoratoolbox/bun/schema"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect"
-	"github.com/uptrace/bun/schema"
 	"github.com/uptrace/opentelemetry-go-extra/otelsql"
 )
 

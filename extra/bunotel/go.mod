@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/extra/bunotel
+module github.com/pandoratoolbox/bun/extra/bunotel
 
 go 1.21
 

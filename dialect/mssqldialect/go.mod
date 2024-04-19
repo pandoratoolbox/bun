@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/dialect/mssqldialect
+module github.com/pandoratoolbox/bun/dialect/mssqldialect
 
 go 1.21
 

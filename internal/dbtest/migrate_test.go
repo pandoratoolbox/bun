@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/pandoratoolbox/bun/migrate"
 	"github.com/stretchr/testify/require"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/migrate"
 )
 
 const (

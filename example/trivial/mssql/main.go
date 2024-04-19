@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	_ "github.com/denisenkom/go-mssqldb"
+	"github.com/pandoratoolbox/bun/dialect/mssqldialect"
+	"github.com/pandoratoolbox/bun/extra/bundebug"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/mssqldialect"
-	"github.com/uptrace/bun/extra/bundebug"
 )
 
 func main() {

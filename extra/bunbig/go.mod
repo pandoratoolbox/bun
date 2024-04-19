@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/extra/bunbig
+module github.com/pandoratoolbox/bun/extra/bunbig
 
 go 1.21
 

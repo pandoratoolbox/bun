@@ -10,8 +10,8 @@ import (
 
 	"github.com/bradleyjkemp/cupaloy"
 
+	"github.com/pandoratoolbox/bun/schema"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/schema"
 )
 
 func init() {
@@ -1512,7 +1512,7 @@ func TestQuery(t *testing.T) {
 				q := db.NewCreateTable().Model(new(Story)).WithForeignKeys()
 
 				// Check that building the query with .AppendQuery() multiple times does not add redundant FK constraints:
-				// https://github.com/uptrace/bun/pull/941#discussion_r1443647857
+				// https://github.com/pandoratoolbox/bun/pull/941#discussion_r1443647857
 				_ = q.String()
 				return q
 			},

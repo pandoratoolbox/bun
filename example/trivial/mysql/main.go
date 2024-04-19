@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/pandoratoolbox/bun/dialect/mysqldialect"
+	"github.com/pandoratoolbox/bun/extra/bundebug"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/mysqldialect"
-	"github.com/uptrace/bun/extra/bundebug"
 )
 
 func main() {

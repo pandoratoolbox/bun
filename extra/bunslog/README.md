@@ -6,7 +6,7 @@ This package enables SQL queries executed by Bun to be logged and displayed usin
 ## Installation
 
 ```bash
-go get github.com/uptrace/bun/extra/bunslog
+go get github.com/pandoratoolbox/bun/extra/bunslog
 ```
 
 ## Features
@@ -21,7 +21,7 @@ go get github.com/uptrace/bun/extra/bunslog
 
 First, import the bunslog package:
 ```go
-import "github.com/uptrace/bun/extra/bunslog"
+import "github.com/pandoratoolbox/bun/extra/bunslog"
 ```
 
 Then, create a new QueryHook and add the hook to `*bun.DB` instance:

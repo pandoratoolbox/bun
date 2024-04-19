@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/uptrace/bun/internal"
-	"github.com/uptrace/bun/schema"
+	"github.com/pandoratoolbox/bun/internal"
+	"github.com/pandoratoolbox/bun/schema"
 )
 
 type structTableModel struct {

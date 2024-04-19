@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/example/pg-listen
+module github.com/pandoratoolbox/bun/example/pg-listen
 
 go 1.21
 
@@ -6,17 +6,17 @@ toolchain go1.22.1
 
 replace github.com/uptrace/bun => ../..
 
-replace github.com/uptrace/bun/extra/bundebug => ../../extra/bundebug
+replace github.com/pandoratoolbox/bun/extra/bundebug => ../../extra/bundebug
 
-replace github.com/uptrace/bun/driver/pgdriver => ../../driver/pgdriver
+replace github.com/pandoratoolbox/bun/driver/pgdriver => ../../driver/pgdriver
 
-replace github.com/uptrace/bun/dialect/pgdialect => ../../dialect/pgdialect
+replace github.com/pandoratoolbox/bun/dialect/pgdialect => ../../dialect/pgdialect
 
 require (
 	github.com/uptrace/bun v1.2.1
-	github.com/uptrace/bun/dialect/pgdialect v1.2.1
-	github.com/uptrace/bun/driver/pgdriver v1.2.1
-	github.com/uptrace/bun/extra/bundebug v1.2.1
+	github.com/pandoratoolbox/bun/dialect/pgdialect v1.2.1
+	github.com/pandoratoolbox/bun/driver/pgdriver v1.2.1
+	github.com/pandoratoolbox/bun/extra/bundebug v1.2.1
 )
 
 require (

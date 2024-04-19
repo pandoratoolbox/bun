@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/uptrace/bun/dialect/feature"
-	"github.com/uptrace/bun/internal"
-	"github.com/uptrace/bun/schema"
+	"github.com/pandoratoolbox/bun/dialect/feature"
+	"github.com/pandoratoolbox/bun/internal"
+	"github.com/pandoratoolbox/bun/schema"
 )
 
 type TruncateTableQuery struct {

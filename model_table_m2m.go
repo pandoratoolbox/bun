@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/uptrace/bun/internal"
-	"github.com/uptrace/bun/schema"
+	"github.com/pandoratoolbox/bun/internal"
+	"github.com/pandoratoolbox/bun/schema"
 )
 
 type m2mModel struct {

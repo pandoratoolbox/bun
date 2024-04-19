@@ -7,16 +7,16 @@ import (
 	"time"
 
 	"github.com/brianvoe/gofakeit/v5"
+	"github.com/pandoratoolbox/bun/dialect/pgdialect"
+	"github.com/pandoratoolbox/bun/driver/pgdriver"
+	"github.com/pandoratoolbox/bun/extra/bunotel"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/pgdialect"
-	"github.com/uptrace/bun/driver/pgdriver"
-	"github.com/uptrace/bun/extra/bunotel"
 	"github.com/uptrace/uptrace-go/uptrace"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 )
 
-var tracer = otel.Tracer("github.com/uptrace/bun/example/opentelemetry")
+var tracer = otel.Tracer("github.com/pandoratoolbox/bun/example/opentelemetry")
 
 func main() {
 	ctx := context.Background()

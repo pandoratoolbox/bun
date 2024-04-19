@@ -6,11 +6,11 @@ import (
 	"os"
 
 	"github.com/davecgh/go-spew/spew"
+	"github.com/pandoratoolbox/bun/dbfixture"
+	"github.com/pandoratoolbox/bun/dialect/sqlitedialect"
+	"github.com/pandoratoolbox/bun/driver/sqliteshim"
+	"github.com/pandoratoolbox/bun/extra/bundebug"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dbfixture"
-	"github.com/uptrace/bun/dialect/sqlitedialect"
-	"github.com/uptrace/bun/driver/sqliteshim"
-	"github.com/uptrace/bun/extra/bundebug"
 )
 
 type Comment struct {

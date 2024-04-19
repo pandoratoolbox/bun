@@ -1,4 +1,4 @@
-module github.com/uptrace/bun/internal/dbtest
+module github.com/pandoratoolbox/bun/internal/dbtest
 
 go 1.21
 
@@ -6,21 +6,21 @@ toolchain go1.22.1
 
 replace github.com/uptrace/bun => ../..
 
-replace github.com/uptrace/bun/dbfixture => ../../dbfixture
+replace github.com/pandoratoolbox/bun/dbfixture => ../../dbfixture
 
-replace github.com/uptrace/bun/dialect/pgdialect => ../../dialect/pgdialect
+replace github.com/pandoratoolbox/bun/dialect/pgdialect => ../../dialect/pgdialect
 
-replace github.com/uptrace/bun/driver/pgdriver => ../../driver/pgdriver
+replace github.com/pandoratoolbox/bun/driver/pgdriver => ../../driver/pgdriver
 
-replace github.com/uptrace/bun/driver/sqliteshim => ../../driver/sqliteshim
+replace github.com/pandoratoolbox/bun/driver/sqliteshim => ../../driver/sqliteshim
 
-replace github.com/uptrace/bun/dialect/mysqldialect => ../../dialect/mysqldialect
+replace github.com/pandoratoolbox/bun/dialect/mysqldialect => ../../dialect/mysqldialect
 
-replace github.com/uptrace/bun/dialect/sqlitedialect => ../../dialect/sqlitedialect
+replace github.com/pandoratoolbox/bun/dialect/sqlitedialect => ../../dialect/sqlitedialect
 
-replace github.com/uptrace/bun/dialect/mssqldialect => ../../dialect/mssqldialect
+replace github.com/pandoratoolbox/bun/dialect/mssqldialect => ../../dialect/mssqldialect
 
-replace github.com/uptrace/bun/extra/bundebug => ../../extra/bundebug
+replace github.com/pandoratoolbox/bun/extra/bundebug => ../../extra/bundebug
 
 require (
 	github.com/bradleyjkemp/cupaloy v2.3.0+incompatible
@@ -31,14 +31,14 @@ require (
 	github.com/jackc/pgx/v4 v4.11.0
 	github.com/stretchr/testify v1.8.1
 	github.com/uptrace/bun v1.2.1
-	github.com/uptrace/bun/dbfixture v1.2.1
-	github.com/uptrace/bun/dialect/mssqldialect v1.2.1
-	github.com/uptrace/bun/dialect/mysqldialect v1.2.1
-	github.com/uptrace/bun/dialect/pgdialect v1.2.1
-	github.com/uptrace/bun/dialect/sqlitedialect v1.2.1
-	github.com/uptrace/bun/driver/pgdriver v1.2.1
-	github.com/uptrace/bun/driver/sqliteshim v1.2.1
-	github.com/uptrace/bun/extra/bundebug v1.2.1
+	github.com/pandoratoolbox/bun/dbfixture v1.2.1
+	github.com/pandoratoolbox/bun/dialect/mssqldialect v1.2.1
+	github.com/pandoratoolbox/bun/dialect/mysqldialect v1.2.1
+	github.com/pandoratoolbox/bun/dialect/pgdialect v1.2.1
+	github.com/pandoratoolbox/bun/dialect/sqlitedialect v1.2.1
+	github.com/pandoratoolbox/bun/driver/pgdriver v1.2.1
+	github.com/pandoratoolbox/bun/driver/sqliteshim v1.2.1
+	github.com/pandoratoolbox/bun/extra/bundebug v1.2.1
 )
 
 require (

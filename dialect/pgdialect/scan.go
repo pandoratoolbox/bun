@@ -3,7 +3,7 @@ package pgdialect
 import (
 	"reflect"
 
-	"github.com/uptrace/bun/schema"
+	"github.com/pandoratoolbox/bun/schema"
 )
 
 func scanner(typ reflect.Type) schema.ScannerFunc {

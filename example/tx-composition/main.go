@@ -4,10 +4,10 @@ import (
 	"context"
 	"database/sql"
 
+	"github.com/pandoratoolbox/bun/dialect/sqlitedialect"
+	"github.com/pandoratoolbox/bun/driver/sqliteshim"
+	"github.com/pandoratoolbox/bun/extra/bundebug"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/sqlitedialect"
-	"github.com/uptrace/bun/driver/sqliteshim"
-	"github.com/uptrace/bun/extra/bundebug"
 )
 
 func main() {

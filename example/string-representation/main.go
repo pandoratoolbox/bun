@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"fmt"
 
+	"github.com/pandoratoolbox/bun/dialect/sqlitedialect"
+	"github.com/pandoratoolbox/bun/driver/sqliteshim"
 	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/sqlitedialect"
-	"github.com/uptrace/bun/driver/sqliteshim"
 )
 
 type Item struct {
