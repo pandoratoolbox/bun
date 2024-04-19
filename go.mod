@@ -17,7 +17,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
-	github.com/pandoratoolbox/json v1.15.8-0.20240419143513-db7b81e88497 // indirect
+	github.com/pandoratoolbox/json v1.15.8-0.20240419144739-b060a9ed3ef1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
