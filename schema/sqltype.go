@@ -3,7 +3,7 @@ package schema
 import (
 	"bytes"
 	"database/sql"
-	"encoding/json"
+	"github.com/pandoratoolbox/json"
 	"reflect"
 	"time"
 

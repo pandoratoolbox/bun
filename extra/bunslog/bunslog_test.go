@@ -3,8 +3,8 @@ package bunslog
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"errors"
+	"github.com/pandoratoolbox/json"
 	"log/slog"
 	"reflect"
 	"testing"

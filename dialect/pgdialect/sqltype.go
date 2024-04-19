@@ -1,7 +1,7 @@
 package pgdialect
 
 import (
-	"encoding/json"
+	"github.com/pandoratoolbox/json"
 	"net"
 	"reflect"
 

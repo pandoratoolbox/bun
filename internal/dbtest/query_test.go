@@ -1,8 +1,8 @@
 package dbtest_test
 
 import (
-	"encoding/json"
 	"fmt"
+	"github.com/pandoratoolbox/json"
 	"path/filepath"
 	"regexp"
 	"testing"

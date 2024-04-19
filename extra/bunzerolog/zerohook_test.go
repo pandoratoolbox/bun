@@ -3,8 +3,8 @@ package bunzerolog
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"errors"
+	"github.com/pandoratoolbox/json"
 	"reflect"
 	"testing"
 	"time"

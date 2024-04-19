@@ -1,7 +1,7 @@
 package bunjson
 
 import (
-	"encoding/json"
+	"github.com/pandoratoolbox/json"
 	"io"
 )
 

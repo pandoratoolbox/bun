@@ -2,7 +2,7 @@ package schema
 
 import (
 	"database/sql/driver"
-	"encoding/json"
+	"github.com/pandoratoolbox/json"
 	"net"
 	"reflect"
 	"time"
