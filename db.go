@@ -48,7 +48,7 @@ type DB struct {
 }
 
 func NewDB(sqldb *sql.DB, dialect schema.Dialect, opts ...DBOption) *DB {
-	json.ZeroIsNull = false
+	// json.ZeroIsNull = false
 	dialect.Init(sqldb)
 
 	db := &DB{

@@ -18,6 +18,8 @@ github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e h1:fD57ERR4JtEqsWb
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/pandoratoolbox/json v1.15.8-0.20240224043424-68874bc89fe7 h1:tPL/VN8HpmGIjoPl4IdWu9JAUHTeu/gHYJSh384KBZ4=
 github.com/pandoratoolbox/json v1.15.8-0.20240224043424-68874bc89fe7/go.mod h1:mF7m9kIgyB/zS/5hYxerBrO1jKijS1XPJq8yO2UuDm4=
+github.com/pandoratoolbox/json v1.15.8-0.20240419143513-db7b81e88497 h1:L71kPgnnqJiNmried5GGaIoAmxGA13AWVD9vKQ5+Lds=
+github.com/pandoratoolbox/json v1.15.8-0.20240419143513-db7b81e88497/go.mod h1:mF7m9kIgyB/zS/5hYxerBrO1jKijS1XPJq8yO2UuDm4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
